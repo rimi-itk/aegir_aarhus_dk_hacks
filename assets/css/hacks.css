@@ -1,0 +1,14 @@
+#admin-menu,
+#block-system-navigation,
+#block-hosting-hosting-supporting-aegir,
+#block-views-hosting-task-list-block .more-link,
+#navigation,
+.view-filters,
+table.views-table:nth-child(4) > tbody:nth-child(2) > tr:nth-child(1),
+#footer {
+	display: none;
+}
+
+body.aegir.logged-in {
+	margin-top: 0 !important;
+}
