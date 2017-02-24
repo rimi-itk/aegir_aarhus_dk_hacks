@@ -20,5 +20,10 @@
 				$('#' + id).attr('checked', 'checked');
 
 				$('#hosting-site-field-client, #hosting-site-field-profile, #hosting-site-field-platform, #hosting-site-field-site-language, #hosting-site-field-db-server').hide();
+
+				$('#edit-title').focus();
+				try {
+						document.getElementById('edit-title').setSelectionRange(0, 0);
+				} catch (ex) {}
 });
 }(jQuery));
