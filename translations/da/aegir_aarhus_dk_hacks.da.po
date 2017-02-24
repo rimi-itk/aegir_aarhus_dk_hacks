@@ -30,3 +30,9 @@ msgstr "Kør"
 
 msgid "Are you sure you want to @task @object?"
 msgstr "Er du sikker på at du vil @task @object?"
+
+msgid "%task task has been queued for @type %title. !message"
+msgstr "Opgaven \"%task\" oprettet for @type %title. !message"
+
+msgid "It will be available once the task is completed."
+msgstr ""
