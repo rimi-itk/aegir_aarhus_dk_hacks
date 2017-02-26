@@ -6,8 +6,7 @@ function aegir_aarhus_dk_hacks_preprocess_page(&$vars, $hook) {
 	if ($user->uid > 1) {
 		drupal_add_css(drupal_get_path('module', 'aegir_aarhus_dk_hacks') . '/assets/css/hacks.css');
 		$path = current_path();
-		// header('Content-type: text/plain'); echo var_export($path, true); die(__FILE__.':'.__LINE__.':'.__METHOD__);
-		if (in_array($path, ['node/add/site'])) {
+		if (in_array($path, ['hosting/sites', 'node/add/site'])) {
 			drupal_add_js(drupal_get_path('module', 'aegir_aarhus_dk_hacks') . '/assets/js/' . $path . '.js');
 		}
 	}
